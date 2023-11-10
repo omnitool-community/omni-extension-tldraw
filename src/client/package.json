@@ -1,0 +1,41 @@
+{
+  "name": "omni-extension-template-client",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build-old": "node ./build.mjs",
+    "build": "react-scripts build && rm -r ../../public/* && cp -r ./build/* ../../public"
+  },
+  "main": "src/index.tsx",
+  "externals": [
+    "omni-sdk"
+  ],
+  "homepage": "/extensions/omni-extension-tldraw",
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "esbuild": "^0.18.4",
+    "esbuild-sass-plugin": "^2.10.0",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@tldraw/tldraw": "canary",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@use-gesture/react": "10.2.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

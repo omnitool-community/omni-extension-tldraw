@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/extensions/omni-extension-tldraw/static/css/main.cfeb69a6.css",
+    "main.js": "/extensions/omni-extension-tldraw/static/js/main.6a61361e.js",
+    "index.html": "/extensions/omni-extension-tldraw/index.html",
+    "main.cfeb69a6.css.map": "/extensions/omni-extension-tldraw/static/css/main.cfeb69a6.css.map",
+    "main.6a61361e.js.map": "/extensions/omni-extension-tldraw/static/js/main.6a61361e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfeb69a6.css",
+    "static/js/main.6a61361e.js"
+  ]
+}

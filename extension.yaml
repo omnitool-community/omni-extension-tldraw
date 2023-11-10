@@ -1,0 +1,7 @@
+title: TLDraw - Drawing Tool (Beta)
+version: 0.0.1
+description: Adds TLDraw (https://github.com/tldraw/tldraw), a whiteboard for creating SVG sketches and exporting them.
+author: Georg Zoeller
+origin: <Your git repository here, ex) git@github.com:your-github-id/your-github-repo.git>
+client:
+  addToWorkbench: true
