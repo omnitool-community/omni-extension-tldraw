@@ -7,6 +7,9 @@ import { uiOverrides } from './ui-overrides.ts'
 import {OmniSDKClient} from 'omni-sdk';
 const sdk = new OmniSDKClient("omni-extension-tldraw").init();
 
+//@ts-ignore
+globalThis.omniSDK = sdk;
+
 
 export default function App() {
   const persistenceId = "tldraw-example";
