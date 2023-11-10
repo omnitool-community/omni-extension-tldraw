@@ -4,6 +4,10 @@ import "./styles.css";
 import "@tldraw/tldraw/tldraw.css";
 import { uiOverrides } from './ui-overrides.ts'
 //const uiOverrides = {}
+import {OmniSDKClient} from 'omni-sdk';
+const sdk = new OmniSDKClient("omni-extension-tldraw").init();
+
+
 export default function App() {
   const persistenceId = "tldraw-example";
 
